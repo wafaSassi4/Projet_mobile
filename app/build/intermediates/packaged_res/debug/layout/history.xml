@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".view.HistoryActivity"
+    android:background="@drawable/im9">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your history"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/artifika"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/container_shape"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"/>
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:padding="10dp"/>
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@color/whitesale">
+    </TableLayout>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:layout_marginTop="200dp"
+        />
+
+</LinearLayout>
